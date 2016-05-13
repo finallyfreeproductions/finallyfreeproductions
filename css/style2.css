@@ -1,0 +1,287 @@
+.main2  ul.nav li{
+	width:200px;
+}
+
+.main2 ul.nav li a{
+	font-size:22px;
+	line-height:130%;
+}
+.main2{
+	background:url(../img/header_all_pages.jpg);
+	background-position: bottom center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding-top:2%;
+	margin:0;
+}
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+	border:none;
+	border-radius:0;
+}
+
+.nav-tabs li a{
+	color:white;
+	text-transform:uppercase;
+	font-family:'Bebasneue';
+}
+
+.nav-tabs li a:hover{
+	background-color: rgba(255,255,255,0.3)!important;
+	color:white;
+	border:none;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover{
+    background-color: rgba(255,255,255,0.3)!important;
+	color:white;
+	border:none;
+}
+
+
+
+.works-tab .nav-tabs span{
+	display:block;
+	font-size:20px;
+	margin-top:7px;
+}
+
+.works-tab .nav-tabs span[class*='icon-']{
+	font-size:60px;
+	margin-top:0;
+}
+
+.tab-content{
+	text-align:center;
+	font-family:'Open Sans';
+}
+
+
+#design, #website, #photography, #socialgrowth{
+	color:white;
+	padding:5% 8% 10%;
+	background:#231F20;
+}
+
+#design{
+	padding:3% 8% 7%;
+}
+
+#photography{
+	padding:2% 8% 6%;
+}
+
+#website{
+	padding:2% 3% 6% 3%;
+}
+
+#website p{
+	padding:0 25px;
+}
+
+#music{
+	//background:#A8A8A8;
+	background:url('../img/record_ourwork.jpg') center center;
+	padding:3% 5% 5%;
+	color:black;
+}
+
+
+#socialgrowth{
+	font-size:17px;
+	text-align:left;
+	//padding:5% 12%;
+	padding:0;
+	font-weight:300;
+	//background:#282627;
+}
+
+#socialgrowth h2{
+	margin:0;
+	font-weight:700;
+}
+
+#socialgrowth h4{
+	margin:0;
+	font-family:'Open Sans';
+	font-weight:300;
+}
+
+#socialgrowth p{
+	text-align:center;
+}
+
+#socialgrowth li{
+	margin:0 0 20px 0; 
+	font-size:10px;
+}
+
+#socialgrowth li span{
+	font-size:17px;
+}
+
+.social-line{
+	width:80%;
+}
+
+.social-chart{
+	width:100%;
+}
+
+.social-info{
+	padding:3% 12%;
+	background:#282627;
+	margin:0;
+}
+
+.social-details{
+	padding-top:5%;
+}
+
+.social-numbers{
+	background:#231F20;
+	padding:5% 0 80px;
+	margin:0;
+	text-align:center;
+}
+
+
+.social-numbers img{
+	width:30%;
+	margin:0 auto;
+}
+
+.social-numbers h3{
+	color:#F9ED04;
+	font-family:'Open Sans';
+}
+
+.social-numbers p{
+	margin:0;
+}
+
+#music .thumbnail{
+	background:#DFDFE1;
+	padding:0 0 20px 0;
+	
+}
+#music .thumbnail p{
+	color:black;
+	padding:5%;
+}
+
+
+
+#music .thumbnail h4{
+	font-family:'Open Sans';
+	text-transform:none;
+	color:black;
+	font-weight:bold;
+}
+
+#music .thumbnail img{
+	width:100%;
+}
+
+
+#music ol{
+	color:black;
+	text-align:left;
+}
+
+#music ol li{
+	padding:5px 25%;
+}
+
+#music .caption{
+	height:157px;
+}
+
+#music .caption a{
+	color:#414042;
+}
+
+.petra-logo img{
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.petra-logo div:last-child{
+	padding-top:20px;
+}
+
+.adure-logo img{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.petra-logo div:last-child{
+	padding:20px 40px;
+}
+
+.plantation_logo{
+	width:150px;
+	padding:15px;
+}
+.wrevel_logo{
+	width:150px;
+	padding:25px 0; 
+}
+
+#design img{
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
+.wrevel_logo{
+	font-size:150px;
+	margin:0;
+}
+
+#website [class*='col-'], #photography [class*='col-']{
+	margin-top:15px;
+}
+
+.adure_photo{
+	font-family:'Ondine';
+	text-transform:none;
+}
+
+.anirish_logo{
+	width:100px;
+	padding:15px 0;
+}
+
+.petra-photo{
+	font-family:'Coaster Black';
+}
+
+.design-work p:first-child{
+	font-weight:bold;
+}
+
+@media (max-width:767px){
+	.show-desktop{
+	display:none !important;
+	}
+	.hide-desktop,.hide{
+	display:initial !important;
+	}
+	.main2  ul.nav li{
+	width:auto;
+	}
+	#design, #website, #photography, #socialgrowth, #music{
+	padding-bottom:50px;
+}	

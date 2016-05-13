@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?n41mfu');
+    src:    url('fonts/icomoon.eot?n41mfu#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?n41mfu') format('truetype'),
+        url('fonts/icomoon.woff?n41mfu') format('woff'),
+        url('fonts/icomoon.svg?n41mfu#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-email_icon:before {
+    content: "\e904";
+}
+.icon-cms_icon:before {
+    content: "\e934";
+}
+.icon-code_icon:before {
+    content: "\e935";
+}
+.icon-computeredit_icon:before {
+    content: "\e936";
+}
+.icon-coverart_icon:before {
+    content: "\e937";
+}
+.icon-document_icon:before {
+    content: "\e938";
+}
+.icon-group_icon:before {
+    content: "\e939";
+}
+.icon-legal_icon:before {
+    content: "\e93a";
+}
+.icon-mastering_icon:before {
+    content: "\e93b";
+}
+.icon-mic_icon:before {
+    content: "\e93c";
+}
+.icon-mixboard_icon:before {
+    content: "\e93d";
+}
+.icon-mobilehand_icon:before {
+    content: "\e93e";
+}
+.icon-performer_icon:before {
+    content: "\e93f";
+}
+.icon-photography_icon:before {
+    content: "\e940";
+}
+.icon-photoshoot_icon:before {
+    content: "\e941";
+}
+.icon-portfolio_icon:before {
+    content: "\e942";
+}
+.icon-poster_icon:before {
+    content: "\e943";
+}
+.icon-record_icon:before {
+    content: "\e944";
+}
+.icon-securepayment_icon:before {
+    content: "\e945";
+}
+.icon-socialmediagrowth_icon:before {
+    content: "\e946";
+}
+.icon-team_icon:before {
+    content: "\e947";
+}
+.icon-touchpad_icon:before {
+    content: "\e948";
+}
+.icon-videography_icon:before {
+    content: "\e949";
+}
+.icon-writing_icon:before {
+    content: "\e94a";
+}
+.icon-camera_icon:before {
+    content: "\e926";
+}
+.icon-design_icon2:before {
+    content: "\e927";
+}
+.icon-music_icon2:before {
+    content: "\e928";
+}
+.icon-socialmedia_icon2:before {
+    content: "\e929";
+}
+.icon-webdev_icon:before {
+    content: "\e92a";
+}
+.icon-clipboard_icon:before {
+    content: "\e92b";
+}
+.icon-consultation_icon:before {
+    content: "\e92c";
+}
+.icon-email_icon2:before {
+    content: "\e92d";
+}
+.icon-email_icon22:before {
+    content: "\e92e";
+}
+.icon-handshake_icon:before {
+    content: "\e92f";
+}
+.icon-phone_icon2:before {
+    content: "\e930";
+}
+.icon-searchperson_icon:before {
+    content: "\e931";
+}
+.icon-signature_icon:before {
+    content: "\e932";
+}
+.icon-wrevel_icon:before {
+    content: "\e933";
+}
+.icon-design_icon:before {
+    content: "\e800";
+}
+.icon-music_icon:before {
+    content: "\e801";
+}
+.icon-photo_icon:before {
+    content: "\e802";
+}
+.icon-socialmedia_icon:before {
+    content: "\e803";
+}
+.icon-web_icon:before {
+    content: "\e804";
+}
+
