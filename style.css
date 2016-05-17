@@ -1,0 +1,55 @@
+#works {
+  /*********** BUTTONS ***********/
+}
+#works .carousel {
+  max-width: 980px;
+  margin: 50px auto;
+  width: 100%;
+}
+#works .carousel-wrapper {
+  margin: 10px 30px;
+  overflow: hidden;
+  position: relative;
+}
+#works .carousel-items {
+  width: 10000px;
+  position: relative;
+}
+#works .carousel-block {
+  float: left;
+  width: 210px;
+  /*CHANGE THESE IF YOU WANT TO CHANGE THE SIZE OF THE IMAGES HOLDER*/
+  height: 100%;
+  overflow: hidden;
+  padding: 10px;
+}
+#works .carousel-block .work {
+  display: block;
+}
+#works .carousel-block .work img {
+  height: 200px;
+  /*CHANGE THESE IF YOU WANT TO CHANGE THE SIZE OF THE IMAGES HOLDER*/
+}
+#works .carousel-block .work p {
+  font-size: 1em;
+}
+#works .carousel-button-left a,
+#works .carousel-button-right a {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 150px;
+  cursor: pointer;
+  text-decoration: none;
+}
+#works .carousel-button-left a {
+  float: left;
+  background: url("https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-left-01-128.png");
+  background-size: cover;
+}
+#works .carousel-button-right a {
+  float: right;
+  background: url("https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-left-01-128.png");
+  background-size: cover;
+  transform: rotate(180deg);
+}
