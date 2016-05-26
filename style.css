@@ -6,48 +6,10 @@
     color: #333; /* old IE */
     background-color: lightgray; /*s Modern Browsers */
 }
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
 
-/* Modal Content */
-.modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 50%;
-    height: 75%;
-}
 
-/* The Close Button */
-.close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-#works {
-  /*********** BUTTONS ***********/
+.boris1{
+  width:75%;
 }
 
 .underline{
@@ -55,55 +17,78 @@
 
 }
 
-#works .carousel {
-  max-width: 83vw;
-  margin: 50px auto;
-  width: 100%;
+.carousel-inner .active.left { left: -25%; }
+.carousel-inner .next        { left:  25%; }
+.carousel-inner .prev		 { left: -25%; }
+.carousel-control 			 { width:  4%; }
+.carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
+
+/*EVERYTHING BELOW THIS LINE IS THE MODAL*/
+
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
 }
-#works .carousel-wrapper {
-  margin: 10px 30px;
-  overflow: hidden;
-  position: relative;
+
+#myImg:hover {opacity: 0.45;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: transparent; /* Fallback color */
+
 }
-#works .carousel-items {
-  width: 10000px;
-  position: relative;
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
 }
-#works .carousel-block {
-  float: left;
-  width: 210px;
-  /*CHANGE THESE IF YOU WANT TO CHANGE THE SIZE OF THE IMAGES HOLDER*/
-  height: 100%;
-  overflow: hidden;
-  padding: 10px;
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: black;
+    padding: 10px 0;
+    /*height: 150px;*/
 }
-#works .carousel-block .work {
-  display: block;
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
 }
-#works .carousel-block .work img {
-  height: 200px;
-  /*CHANGE THESE IF YOU WANT TO CHANGE THE SIZE OF THE IMAGES HOLDER*/
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
 }
-#works .carousel-block .work p {
-  font-size: 1em;
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
 }
-#works .carousel-button-left a,
-#works .carousel-button-right a {
-  width: 50px;
-  height: 50px;
-  position: relative;
-  top: 150px;
-  cursor: pointer;
-  text-decoration: none;
-}
-#works .carousel-button-left a {
-  float: left;
-  background: url("https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-left-01-128.png");
-  background-size: cover;
-}
-#works .carousel-button-right a {
-  float: right;
-  background: url("https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-left-01-128.png");
-  background-size: cover;
-  transform: rotate(180deg);
+
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
 }
