@@ -1,108 +1,143 @@
-// $(document).on('mouseenter', '.imgDiv', function() {
-//   $('.textDiv').hide(400);
-//   $('.textDiv').show(400);
-// });
-// $(document).on('mouseleave', '.imgDiv', function() {
-//   $('.textDiv').hide(400);
-// });
-
 
 $(document).ready(function(){
   $('.textDiv').hide();
   $('.imgDiv').on('mouseenter', function(){
-    // $('.textDiv').show(400);
-    run();
+    $('.textDiv').show(400);
+
   });
   $('.imgDiv').on('mouseleave', function(){
     $('.textDiv').hide  (400);
   });
-
 });
-$(document).ready(function(){
-  $('.textDiv1').hide();
-  $('.imgDiv1').on('mouseenter', function(){
-    // $('.textDiv1').show(400);
-    run1();
-  });
-  $('.imgDiv1').on('mouseleave', function(){
-    $('.textDiv1').hide  (400);
-  });
-});
+  $(document).ready(function(){
+    $('.textDiv1').hide();
+    $('.imgDiv1').on('mouseenter', function(){
+      $('.textDiv1').show(400);
 
-$(document).ready(function(){
-  $('.textDiv2').hide();
-  $('.imgDiv2').on('mouseenter', function(){
-    // $('.textDiv2').show(400);
-    run2();
-  });
-  $('.imgDiv2').on('mouseleave', function(){
-    $('.textDiv2').hide  (400);
-  });
+    });
+    $('.imgDiv1').on('mouseleave', function(){
+      $('.textDiv1').hide  (400);
+    });
+});
+  $(document).ready(function(){
+    $('.textDiv2').hide();
+    $('.imgDiv2').on('mouseenter', function(){
+      $('.textDiv2').show(400);
+
+    });
+    $('.imgDiv2').on('mouseleave', function(){
+      $('.textDiv2').hide  (400);
+    });
 });
 
-$(document).ready(function(){
-  $('.textDiv3').hide();
-  $('.imgDiv3').on('mouseenter', function(){
-    // $('.textDiv3').show(400);
-    run3();
-  });
-  $('.imgDiv3').on('mouseleave', function(){
-    $('.textDiv3').hide  (400);
-  });
+    $(document).ready(function(){
+      $('.textDiv3').hide();
+      $('.imgDiv3').on('mouseenter', function(){
+        $('.textDiv3').show(400);
+
+      });
+      $('.imgDiv3').on('mouseleave', function(){
+        $('.textDiv3').hide  (400);
+      });
 });
-// =========this is the first one below========
-function run (){
-  fadeout = setInterval(fade,600);
-}
-
-function fade(){
-$('.textDiv').show(400);
-  stop();
-}
-
-function stop(){
-  clearInterval(fadeout);
-}
-// =========this is the 2nd one below========
-function run1(){
-  fadeout1 = setInterval(fade1,600);
-}
-
-function fade1(){
-$('.textDiv1').show(400);
-  stop1();
-}
 
 
-function stop1(){
-  clearInterval(fadeout1);
-}
-// =========this is the third one below========
-function run2(){
-  fadeout2 = setInterval(fade2,600);
-}
+// $(document).ready(function(){
+//   $('.textDiv').hide();
+//   $('.imgDiv').on('mouseenter', function(){
+//     // $('.textDiv').show(400);
+//     run();
+//   });
+//   $('.imgDiv').on('mouseleave', function(){
+//     $('.textDiv').hide  (400);
+//   });
 
-function fade2(){
-$('.textDiv2').show(400);
-  stop2();
-}
-
-function stop2(){
-  clearInterval(fadeout2);
-}
-// =========this is the fourth one below==========
-function run3(){
-  fadeout3 = setInterval(fade3,600);
-}
-
-function fade3(){
-$('.textDiv3').show(400);
-  stop3();
-}
-
-function stop3(){
-  clearInterval(fadeout3);
-}
+// });
+// $(document).ready(function(){
+//   $('.textDiv1').hide();
+//   $('.imgDiv1').on('mouseenter', function(){
+//     // $('.textDiv1').show(400);
+//     run1();
+//   });
+//   $('.imgDiv1').on('mouseleave', function(){
+//     $('.textDiv1').hide  (400);
+//   });
+// });
+//
+// $(document).ready(function(){
+//   $('.textDiv2').hide();
+//   $('.imgDiv2').on('mouseenter', function(){
+//     // $('.textDiv2').show(400);
+//     run2();
+//   });
+//   $('.imgDiv2').on('mouseleave', function(){
+//     $('.textDiv2').hide  (400);
+//   });
+// });
+//
+// $(document).ready(function(){
+//   $('.textDiv3').hide();
+//   $('.imgDiv3').on('mouseenter', function(){
+//     // $('.textDiv3').show(400);
+//     run3();
+//   });
+//   $('.imgDiv3').on('mouseleave', function(){
+//     $('.textDiv3').hide  (400);
+//   });
+// });
+// // =========this is the first one below========
+// function run (){
+//   fadeout = setInterval(fade,600);
+// }
+//
+// function fade(){
+// $('.textDiv').show(400);
+//   stop();
+// }
+//
+// function stop(){
+//   clearInterval(fadeout);
+// }
+// // =========this is the 2nd one below========
+// function run1(){
+//   fadeout1 = setInterval(fade1,600);
+// }
+//
+// function fade1(){
+// $('.textDiv1').show(400);
+//   stop1();
+// }
+//
+//
+// function stop1(){
+//   clearInterval(fadeout1);
+// }
+// // =========this is the third one below========
+// function run2(){
+//   fadeout2 = setInterval(fade2,600);
+// }
+//
+// function fade2(){
+// $('.textDiv2').show(400);
+//   stop2();
+// }
+//
+// function stop2(){
+//   clearInterval(fadeout2);
+// }
+// // =========this is the fourth one below==========
+// function run3(){
+//   fadeout3 = setInterval(fade3,600);
+// }
+//
+// function fade3(){
+// $('.textDiv3').show(400);
+//   stop3();
+// }
+//
+// function stop3(){
+//   clearInterval(fadeout3);
+// }
 // ========this is for the mouseenter on works page
 
 $('#myCarousel').carousel({
