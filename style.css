@@ -1,3 +1,110 @@
+  .imgDiv {
+    /*width: 583.32px;
+    height:  184.02px;*/
+    margin: 0 auto;
+    position:relative;
+  }
+
+  #image {
+    width:15%;
+  }
+
+  #image1 {
+    width:100%;
+  }
+
+  .textDiv {
+    height:25%;
+    top:66%;
+    background-color: rgba(0, 0, 0, 0.85);
+
+    position:absolute;
+    /*float:left;*/
+    width:100%;
+  }
+  /*=====this is the second one below*/
+  .imgDiv1 {
+    /*width: 583.32px;
+    height:  184.02px;*/
+    margin: 0 auto;
+    position:relative;
+  }
+
+  #image1 {
+    width:15%;
+  }
+
+  #image1 {
+    width:100%;
+  }
+
+  .textDiv1 {
+    height:25%;
+    top:66%;
+    background-color: rgba(0, 0, 0, 0.85);
+
+    position:absolute;
+    /*float:left;*/
+    width:100%;
+  }
+  /*=======this is the third one below*/
+
+  .imgDiv2 {
+    /*width: 583.32px;
+    height:  184.02px;*/
+    margin: 0 auto;
+    position:relative;
+  }
+
+  #image2 {
+    width:15%;
+  }
+
+  #image1 {
+    width:100%;
+  }
+
+  .textDiv2 {
+    height:25%;
+    top:66%;
+    background-color: rgba(0, 0, 0, 0.85);
+
+    position:absolute;
+    /*float:left;*/
+    width:100%;
+  }
+
+  /*========this is the fourt and final website on mouseenter stuff below*/
+
+  .imgDiv3 {
+    /*width: 583.32px;
+    height:  184.02px;*/
+    margin: 0 auto;
+    position:relative;
+  }
+
+  #image3 {
+    width:15%;
+  }
+
+  #image1 {
+    width:100%;
+  }
+
+  .textDiv3 {
+    height:25%;
+    top:66%;
+    background-color: rgba(0, 0, 0, 0.85);
+
+    position:absolute;
+    /*float:left;*/
+    width:100%;
+  }
+  #pTag {
+    float:center;
+  }
+  /*==========this is for the on mouse enter show stuff on works website page*/
+
 #hrTag {
     border: none;
     width: 75%;
