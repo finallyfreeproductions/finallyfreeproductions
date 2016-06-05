@@ -225,7 +225,7 @@ $headers = 'From: '.$email_from."\r\n".
 				<span>67 West Street, Brooklyn, NY 11222</span>
 				<span class="social-icons">
 					<a href="https://www.facebook.com/finallyfreerecords?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a> 
-					<a href="https://twitter.com/SARGchante" target="_blank"><i class="fa fa-twitter"></i></a> 
+					<a href="https://twitter.com/thefinallyfree" target="_blank"><i class="fa fa-twitter"></i></a> 
 					<!--<a href="" target="_blank"><i class="fa fa-instagram"></i></a> 
 					<a href="" target="_blank"><i class="fa fa-tumblr"></i></a> 
 					<a href="" target="_blank"><i class="fa fa-youtube"></i></a> -->

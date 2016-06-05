@@ -1,45 +1,45 @@
 
-// $(document).ready(function(){
-//   $('.textDiv').hide();
-//   $('.imgDiv').on('mouseenter', function(){
-//     $('.textDiv').slideDown(500);
-//
-//   });
-//   $('.imgDiv').on('mouseleave', function(){
-//     $('.textDiv').slideUp(200);
-//   });
-// });
-//   $(document).ready(function(){
-//     $('.textDiv1').hide();
-//     $('.imgDiv1').on('mouseenter', function(){
-//       $('.textDiv1').slideDown(500);
-//
-//     });
-//     $('.imgDiv1').on('mouseleave', function(){
-//       $('.textDiv1').slideUp(200);
-//     });
-// });
-//   $(document).ready(function(){
-//     $('.textDiv2').hide();
-//     $('.imgDiv2').on('mouseenter', function(){
-//       $('.textDiv2').slideDown(500);
-//
-//     });
-//     $('.imgDiv2').on('mouseleave', function(){
-//       $('.textDiv2').slideUp(200);
-//     });
-// });
-//
-//     $(document).ready(function(){
-//       $('.textDiv3').hide();
-//       $('.imgDiv3').on('mouseenter', function(){
-//         $('.textDiv3').slideDown(500);
-//
-//       });
-//       $('.imgDiv3').on('mouseleave', function(){
-//         $('.textDiv3').slideUp(200);
-//       });
-// });
+$(document).ready(function(){
+  $('.textDiv').hide();
+  $('.imgDiv').on('mouseenter', function(){
+    $('.textDiv').slideDown(500);
+
+  });
+  $('.imgDiv').on('mouseleave', function(){
+    $('.textDiv').slideUp(200);
+  });
+});
+  $(document).ready(function(){
+    $('.textDiv1').hide();
+    $('.imgDiv1').on('mouseenter', function(){
+      $('.textDiv1').slideDown(500);
+
+    });
+    $('.imgDiv1').on('mouseleave', function(){
+      $('.textDiv1').slideUp(200);
+    });
+});
+  $(document).ready(function(){
+    $('.textDiv2').hide();
+    $('.imgDiv2').on('mouseenter', function(){
+      $('.textDiv2').slideDown(500);
+
+    });
+    $('.imgDiv2').on('mouseleave', function(){
+      $('.textDiv2').slideUp(200);
+    });
+});
+
+    $(document).ready(function(){
+      $('.textDiv3').hide();
+      $('.imgDiv3').on('mouseenter', function(){
+        $('.textDiv3').slideDown(500);
+
+      });
+      $('.imgDiv3').on('mouseleave', function(){
+        $('.textDiv3').slideUp(200);
+      });
+});
 
 // ========this is for the mouseenter on works page
 

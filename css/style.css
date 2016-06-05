@@ -3,7 +3,7 @@
 html {
 	position: relative;
 	min-height: 100%;
-	
+
 }
 
 body {
@@ -26,7 +26,7 @@ h1,h2,h3,h4,h5,h6{
 	font-style: normal;
 }
 
-@font-face { 
+@font-face {
 	font-family: 'Bebasneue Book';
 	src:url('../fonts/bebasneuebook.eot');
 	src:url('../fonts/bebasneuebook.eot?#iefix') format('embedded-opentype'),
@@ -120,7 +120,7 @@ h1,h2,h3,h4,h5,h6{
 
 .main nav, .main2 nav{
 	text-align:center;
-	padding:2%;
+	/*padding:2%;*/
 }
 
 
@@ -235,9 +235,25 @@ ul, ol{
 	background-repeat:no-repeat;
 	background-size:cover;
 	padding-bottom:20%;
-	padding-top:3%;
+	padding-top:1%;
 }
 
+.main2  ul.nav li{
+	width:200px;
+}
+
+.main2 ul.nav li a{
+	font-size:22px;
+	line-height:130%;
+}
+.main2{
+	background:url(../img/header_all_pages.jpg);
+	background-position: bottom center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding-top:2%;
+	margin:0;
+}
 
 .starter-template {
 	text-align: center;
@@ -677,7 +693,7 @@ ul, ol{
 .steps [class*='col-'] span{
 	font-size:100px;
 }
- 
+
 .steps h3{
 	color:#F6F624;
 	font-family:'Open Sans';
@@ -698,10 +714,10 @@ ul, ol{
 }
 
 
-.artist .col-md-5, .artist-info .col-md-5{	
-//Need to fix for smaller screens	
+.artist .col-md-5, .artist-info .col-md-5{
+//Need to fix for smaller screens
 //   border-right: thin solid gray;
-	line-height:13px;	
+	line-height:13px;
 }
 
 /*Contact Page*/
@@ -713,7 +729,7 @@ ul, ol{
 
 .contact_box{
 	background:#282627;
-	width:100%; 
+	width:100%;
 	padding:5% 10%;
 	margin-left:auto;
 	margin-right:auto;
@@ -791,7 +807,7 @@ input.btn:hover{
 @media(max-width:1024px){
 	.main ul.nav li, .main2  ul.nav li {
 	width:160px;
-	
+
 	}
 }
 
@@ -799,16 +815,16 @@ input.btn:hover{
 	.contact_box{
 	width:70%;
 	}
-	
+
 	.navbar-brand img{
 	width:300px;
 	}
-	
+
 	.main ul.nav li {
 	width:110px;
 	}
 	.main2 ul.nav li{
-	width:100px !important; 
+	width:100px !important;
 	}
 	.main ul.nav li a, .main2  ul.nav li a {
 	font-size:25px;
@@ -816,7 +832,7 @@ input.btn:hover{
 	.contact_form input.input, .contact_form textarea{
 	width:auto;
 	}
-	
+
 }
 
 @media(max-width:767px){
