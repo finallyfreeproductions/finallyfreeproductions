@@ -13,8 +13,8 @@
     width:100%;
   }
   .textDiv {
-    height:25%;
-    top:66%;
+    height:35%;
+    top:35%;
     background-color: rgba(0, 0, 0, 0.85);
 
     position:absolute;
@@ -39,8 +39,8 @@
   }
 
   .textDiv1 {
-    height:25%;
-    top:66%;
+    height:35%;
+    top:35%;
     background-color: rgba(0, 0, 0, 0.85);
 
     position:absolute;
@@ -65,8 +65,8 @@
   }
 
   .textDiv2 {
-    height:25%;
-    top:66%;
+    height:35%;
+    top:35%;
     background-color: rgba(0, 0, 0, 0.85);
 
     position:absolute;
@@ -92,8 +92,8 @@
   }
 
   .textDiv3 {
-    height:25%;
-    top:66%;
+    height:35%;
+    top:35%;
     background-color: rgba(0, 0, 0, 0.85);
 
     position:absolute;
@@ -128,7 +128,7 @@
 .carousel-inner .next        { left:  25%; }
 .carousel-inner .prev		 { left: -25%; }
 .carousel-control 			 { width:  4%; }
-.carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
+.carousel-control.left,.carousel-control.right {margin-left:5px;background-image:none;}
 
 /*EVERYTHING BELOW THIS LINE IS THE MODAL*/
 
@@ -160,6 +160,8 @@
     display: block;
     width: 80%;
     max-width: 700px;
+    background-color: rgba(0, 0, 0, 0.85);
+
 }
 
 /* Caption of Modal Image */
@@ -169,7 +171,7 @@
     width: 80%;
     max-width: 700px;
     text-align: center;
-    color: black;
+    color: white;
     padding: 10px 0;
     /*height: 150px;*/
 }
@@ -194,8 +196,641 @@
 
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 800px){
     .modal-content {
         width: 100%;
+    }
+    .imgDiv {
+      /*width: 583.32px;
+      height:  184.02px;*/
+      margin: 0 auto;
+      position:relative;
+    }
+
+    #image {
+      width:15%;
+    }
+
+    #image1 {
+      width:100%;
+    }
+    .textDiv {
+      height:35%;
+      top:30%;
+      background-color: rgba(0, 0, 0, 0.85);
+
+      position:absolute;
+      width:100%;
+    }
+    /*=====this is the second one below*/
+    .imgDiv1 {
+      /*width: 583.32px;
+      height:  184.02px;*/
+      margin: 0 auto;
+      position:relative;
+    }
+
+    #image1 {
+      width:15%;
+    }
+
+    #image1 {
+      width:100%;
+    }
+
+    .textDiv1 {
+      height:25%;
+      top:35%;
+      background-color: rgba(0, 0, 0, 0.85);
+
+      position:absolute;
+      /*float:left;*/
+      width:100%;
+    }
+    /*=======this is the third one below*/
+
+    .imgDiv2 {
+      /*width: 583.32px;
+      height:  184.02px;*/
+      margin: 0 auto;
+      position:relative;
+    }
+
+    #image2 {
+      width:15%;
+    }
+
+    #image1 {
+      width:100%;
+    }
+
+    .textDiv2 {
+      height:25%;
+      top:35%;
+      background-color: rgba(0, 0, 0, 0.85);
+
+      position:absolute;
+      /*float:left;*/
+      width:100%;
+    }
+
+    /*========this is the fourt and final website on mouseenter stuff below*/
+
+    .imgDiv3 {
+      /*width: 583.32px;
+      height:  184.02px;*/
+      margin: 0 auto;
+      position:relative;
+    }
+
+    #image3 {
+      width:15%;
+    }
+
+    #image1 {
+      width:100%;
+    }
+
+    .textDiv3 {
+      height:35%;
+      top:30%;
+      background-color: rgba(0, 0, 0, 0.85);
+
+      position:absolute;
+      /*float:left;*/
+      width:100%;
+    }
+    #pTag {
+      float:center;
+    }
+    #myImg {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #myImg:hover {opacity: 0.45;}
+
+    /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: transparent; /* Fallback color */
+
+    }
+
+    /* Modal Content (image) */
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        background-color: rgba(0, 0, 0, 0.85);
+
+    }
+
+    /* Caption of Modal Image */
+    #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        text-align: center;
+        color: white;
+        padding: 10px 0;
+        /*height: 150px;*/
+    }
+
+    /* Add Animation */
+    .modal-content, #caption {
+        -webkit-animation-name: zoom;
+        -webkit-animation-duration: 0.6s;
+        animation-name: zoom;
+        animation-duration: 0.6s;
+    }
+}
+
+/*=============== below this is the media query for 480px=====*/
+
+/*=============== above this is the media query for 480px=====*/
+@media only screen and (max-width: 700px){
+  .modal-content {
+      width: 100%;
+  }
+  #myImg {
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+  }
+
+  #myImg:hover {opacity: 0.45;}
+
+  /* The Modal (background) */
+  .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: transparent; /* Fallback color */
+
+  }
+
+  /* Modal Content (image) */
+  .modal-content {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+      background-color: rgba(0, 0, 0, 0.85);
+
+  }
+
+  /* Caption of Modal Image */
+  #caption {
+      margin: auto;
+      display: block;
+      width: 80%;
+      max-width: 700px;
+      text-align: center;
+      color: white;
+      padding: 10px 0;
+      /*height: 150px;*/
+  }
+
+  /* Add Animation */
+  .modal-content, #caption {
+      -webkit-animation-name: zoom;
+      -webkit-animation-duration: 0.6s;
+      animation-name: zoom;
+      animation-duration: 0.6s;
+  }
+  .imgDiv {
+    margin: 0 auto;
+    position:relative;
+  }
+
+  #image {
+    width:15%;
+  }
+
+  #image1 {
+    width:100%;
+  }
+  .textDiv {
+    height:40%;
+    top:26%;
+    background-color: rgba(0, 0, 0, 0.85);
+
+    position:absolute;
+    width:100%;
+  }
+  /*=====this is the second one below*/
+  .imgDiv1 {
+    /*width: 583.32px;
+    height:  184.02px;*/
+    margin: 0 auto;
+    position:relative;
+  }
+
+  #image1 {
+    width:15%;
+  }
+
+  #image1 {
+    width:100%;
+  }
+
+  .textDiv1 {
+    height:25%;
+    top:35%;
+    background-color: rgba(0, 0, 0, 0.85);
+
+    position:absolute;
+    /*float:left;*/
+    width:100%;
+  }
+  /*=======this is the third one below*/
+
+  .imgDiv2 {
+    /*width: 583.32px;
+    height:  184.02px;*/
+    margin: 0 auto;
+    position:relative;
+  }
+
+  #image2 {
+    width:15%;
+  }
+
+  #image1 {
+    width:100%;
+  }
+
+  .textDiv2 {
+    height:35%;
+    top:30%;
+    background-color: rgba(0, 0, 0, 0.85);
+
+    position:absolute;
+    /*float:left;*/
+    width:100%;
+  }
+
+  /*========this is the fourt and final website on mouseenter stuff below*/
+
+  .imgDiv3 {
+    /*width: 583.32px;
+    height:  184.02px;*/
+    margin: 0 auto;
+    position:relative;
+  }
+
+  #image3 {
+    width:15%;
+  }
+
+  #image1 {
+    width:100%;
+  }
+
+  .textDiv3 {
+    height:50%;
+    top:20%;
+    background-color: rgba(0, 0, 0, 0.85);
+
+    position:absolute;
+    /*float:left;*/
+    width:100%;
+  }
+  #pTag {
+    float:center;
+  }
+}
+
+@media only screen and (max-width: 545px){
+    .modal-content {
+        width: 100%;
+    }
+    .imgDiv {
+      /*width: 583.32px;
+      height:  184.02px;*/
+      margin: 0 auto;
+      position:relative;
+    }
+
+    #image {
+      width:15%;
+    }
+
+    #image1 {
+      width:100%;
+    }
+    .textDiv {
+      height:55%;
+      top:16%;
+      background-color: rgba(0, 0, 0, 0.85);
+
+      position:absolute;
+      width:100%;
+    }
+    /*=====this is the second one below*/
+    .imgDiv1 {
+      /*width: 583.32px;
+      height:  184.02px;*/
+      margin: 0 auto;
+      position:relative;
+    }
+
+    #image1 {
+      width:15%;
+    }
+
+    #image1 {
+      width:100%;
+    }
+
+    .textDiv1 {
+      height:55%;
+      top:16%;
+      background-color: rgba(0, 0, 0, 0.85);
+
+      position:absolute;
+      /*float:left;*/
+      width:100%;
+    }
+    /*=======this is the third one below*/
+
+    .imgDiv2 {
+      /*width: 583.32px;
+      height:  184.02px;*/
+      margin: 0 auto;
+      position:relative;
+    }
+
+    #image2 {
+      width:15%;
+    }
+
+    #image1 {
+      width:100%;
+    }
+
+    .textDiv2 {
+      height:35%;
+      top:25%;
+      background-color: rgba(0, 0, 0, 0.85);
+
+      position:absolute;
+      /*float:left;*/
+      width:100%;
+    }
+
+    /*========this is the fourt and final website on mouseenter stuff below*/
+
+    .imgDiv3 {
+      /*width: 583.32px;
+      height:  184.02px;*/
+      margin: 0 auto;
+      position:relative;
+    }
+
+    #image3 {
+      width:15%;
+    }
+
+    #image1 {
+      width:100%;
+    }
+
+    .textDiv3 {
+      height:60%;
+      top:13%;
+      background-color: rgba(0, 0, 0, 0.85);
+
+      position:absolute;
+      /*float:left;*/
+      width:100%;
+    }
+    #pTag {
+      float:center;
+    }
+    #myImg {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #myImg:hover {opacity: 0.45;}
+
+    /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: transparent; /* Fallback color */
+
+    }
+
+    /* Modal Content (image) */
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        background-color: rgba(0, 0, 0, 0.85);
+
+    }
+
+    /* Caption of Modal Image */
+    #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        text-align: center;
+        color: white;
+        padding: 10px 0;
+        /*height: 150px;*/
+    }
+
+    /* Add Animation */
+    .modal-content, #caption {
+        -webkit-animation-name: zoom;
+        -webkit-animation-duration: 0.6s;
+        animation-name: zoom;
+        animation-duration: 0.6s;
+    }
+}
+
+
+
+@media only screen and (max-width: 400px){
+    .modal-content {
+        width: 100%;
+    }
+    .imgDiv {
+      /*width: 583.32px;
+      height:  184.02px;*/
+      margin: 0 auto;
+      position:relative;
+    }
+
+    #image {
+      width:15%;
+    }
+
+    #image1 {
+      width:100%;
+    }
+    .textDiv {
+      height:55%;
+      top:16%;
+      background-color: rgba(0, 0, 0, 0.85);
+
+      position:absolute;
+      width:100%;
+    }
+    /*=====this is the second one below*/
+    .imgDiv1 {
+      /*width: 583.32px;
+      height:  184.02px;*/
+      margin: 0 auto;
+      position:relative;
+    }
+
+    #image1 {
+      width:15%;
+    }
+
+    #image1 {
+      width:100%;
+    }
+
+    .textDiv1 {
+      height:55%;
+      top:16%;
+      background-color: rgba(0, 0, 0, 0.85);
+
+      position:absolute;
+      /*float:left;*/
+      width:100%;
+    }
+    /*=======this is the third one below*/
+
+    .imgDiv2 {
+      /*width: 583.32px;
+      height:  184.02px;*/
+      margin: 0 auto;
+      position:relative;
+    }
+
+    #image2 {
+      width:15%;
+    }
+
+    #image1 {
+      width:100%;
+    }
+
+    .textDiv2 {
+      height:35%;
+      top:25%;
+      background-color: rgba(0, 0, 0, 0.85);
+
+      position:absolute;
+      /*float:left;*/
+      width:100%;
+    }
+
+    /*========this is the fourt and final website on mouseenter stuff below*/
+
+    .imgDiv3 {
+      /*width: 583.32px;
+      height:  184.02px;*/
+      margin: 0 auto;
+      position:relative;
+    }
+
+    #image3 {
+      width:15%;
+    }
+
+    #image1 {
+      width:100%;
+    }
+
+    .textDiv3 {
+      height:60%;
+      top:13%;
+      background-color: rgba(0, 0, 0, 0.85);
+
+      position:absolute;
+      /*float:left;*/
+      width:100%;
+    }
+    #pTag {
+      float:center;
+    }
+    #myImg {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #myImg:hover {opacity: 0.45;}
+
+    /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: transparent; /* Fallback color */
+
+    }
+
+    /* Modal Content (image) */
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        background-color: rgba(0, 0, 0, 0.85);
+
+    }
+
+    /* Caption of Modal Image */
+    #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        text-align: center;
+        color: white;
+        padding: 10px 0;
+        /*height: 150px;*/
+    }
+
+    /* Add Animation */
+    .modal-content, #caption {
+        -webkit-animation-name: zoom;
+        -webkit-animation-duration: 0.6s;
+        animation-name: zoom;
+        animation-duration: 0.6s;
     }
 }
