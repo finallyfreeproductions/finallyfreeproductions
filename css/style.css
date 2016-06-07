@@ -231,7 +231,6 @@ ul, ol{
 
 .main{
 	background:url(../img/20cap.png);
-	/*background-position: top center;*/
 	background-repeat:no-repeat;
 	background-size:cover;
 	padding-bottom:10%;
@@ -308,44 +307,6 @@ ul, ol{
 	background-size:cover;
 	color:white;
 }
-
-
-/*.book {
-    width:100%;
-    height:200px;
-    //background:#ccc;
-    position:relative;
-}
-.test {
-    width:100%;
-    height:100%;
-    position:absolute;
-    top:0;
-    left:0;
-    z-index:1;
-    background:rgba(0,0,0,0.5);
-    transition:opacity 0.5s;
-    opacity:0;
-	color:white;
-	padding:45% 10%;
-}
-
-.test  strong{
-	color:#FDAF40;
-	font-size:20px;
-}
-
-
-.book .image {
-    position:relative;
-    //top:50%;
-	overflow:hidden;
-	height:200px;
-}
-
-.book:hover .test{
-    opacity:1;
-}*/
 
 .thumbnail{
 	background:transparent;
