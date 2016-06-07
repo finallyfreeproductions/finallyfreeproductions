@@ -230,7 +230,7 @@ ul, ol{
 /*Main Page*/
 
 .main{
-	background:url(../img/headerM.jpg);
+	background:url(../img/20cap.png);
 	/*background-position: top center;*/
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -285,8 +285,8 @@ ul, ol{
 
 .info_text{
 	padding:70px 15%;
-	padding-bottom:100px;
-	line-height:160%;
+	padding-bottom:4px;
+	line-height:137%;
 	margin-top:-50px;
 	font-size:16px;
 }
@@ -415,6 +415,26 @@ ul, ol{
 
 .preview strong{
 	color:#FFA84B;
+}
+.test {
+	background-color: black;
+}
+#headerTags {
+	color: black;
+	font-size:50px;
+	font-family: Bebasceue Book;
+}
+#headerTags2 {
+	color: black;
+	font-size: 35px;
+	font-family: Bebasceue Book;
+}
+#mainParagraphFFP{
+	color: black;
+	font-size:17px;
+}
+#mainParagraphStrongFFP{
+	color: black;
 }
 
 
