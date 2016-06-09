@@ -284,9 +284,9 @@ ul, ol{
 
 .info_text{
 	padding:70px 15%;
-	padding-bottom:4px;
-	line-height:137%;
-	margin-top:-50px;
+	/*padding-bottom:4px;*/
+	/*line-height:137%;*/
+	/*margin-top:-50px;*/
 	font-size:16px;
 }
 
@@ -798,7 +798,7 @@ input.btn:hover{
 	}
 
 	.navbar-brand img{
-	width:300px;
+	width:200px;
 	}
 
 	.main ul.nav li {

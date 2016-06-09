@@ -34,6 +34,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+		<link href="carousel.css" rel="stylesheet">
   </head>
 
   <body>
@@ -70,7 +71,55 @@
 			 </div>
 			</nav>
 	 </div>
-	 <div class="main" id='idMain'>
+	 <!-- Carousel
+	 ================================================== -->
+	 <div id="myCarousel" class="carousel slide" data-ride="carousel">
+		 <!-- Indicators -->
+		 <ol class="carousel-indicators">
+			 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			 <li data-target="#myCarousel" data-slide-to="1"></li>
+			 <li data-target="#myCarousel" data-slide-to="2"></li>
+		 </ol>
+		 <div class="carousel-inner" role="listbox">
+			 <div class="item active">
+				 <img class="first-slide" src="img/20cap.png" alt="First slide">
+				 <div class="container">
+					 <div class="carousel-caption">
+						 <h1>THIS IS A PLACE HOLDER1</h1>
+						 <p>THIS IS A PLACEHOLDER1</p>
+					 </div>
+				 </div>
+			 </div>
+			 <div class="item">
+				 <img class="second-slide" src="img/20cap.png" alt="Second slide">
+				 <div class="container">
+					 <div class="carousel-caption">
+						 <h1>THIS IS A PLACE HOLDER2</h1>
+						 <p>THIS IS A PLACEHOLDER2</p>
+					 </div>
+				 </div>
+			 </div>
+			 <div class="item">
+				 <img class="third-slide" src="img/20cap.png" alt="Third slide">
+				 <div class="container">
+					 <div class="carousel-caption">
+						 <h1>THIS IS A PLACE HOLDER3</h1>
+						 <p>THIS IS A PLACEHOLDER3</p>
+					 </div>
+				 </div>
+			 </div>
+		 </div>
+		 <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			 <span class="sr-only">Previous</span>
+		 </a>
+		 <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			 <span class="sr-only">Next</span>
+		 </a>
+	 </div><!-- /.carousel -->
+
+	 <!-- <div class="main" id='idMain'>
     <div class="container info">
       <div class="starter-template">
 			  <div class="info_text">
@@ -93,7 +142,7 @@
 				</div>
       </div>
     </div>
-	</div>
+	</div> -->
 	<div class="container preview">
 		<div class="info_text">
 			<p id='mainParagraphFFP'><strong id='mainParagraphStrongFFP'>Finally Free Productions</strong> is a Brooklyn-based production company that focuses on music production, design, web development, and social media. We tell stories and create experiences that both educate and inspire all within an affordable budget. Our process is comprehensive and unequivocal: we get to know you so we can craft the most memorable experience for your audience. <strong id='mainParagraphStrongFFP'>Our team is extremely motivated and will work tirelessly to make sure we understand your vision and extract it exactly the way you want, if not better.</strong></p>
